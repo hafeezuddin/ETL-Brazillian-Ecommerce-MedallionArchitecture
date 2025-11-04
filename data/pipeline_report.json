@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-11-04T00:02:40.235926",
+  "layers": {
+    "bronze": {
+      "file_count": 3,
+      "files": [
+        "order_items.parquet",
+        "orders.parquet",
+        "customers.parquet"
+      ]
+    },
+    "silver": {
+      "file_count": 3,
+      "files": [
+        "customers_cleaned.parquet",
+        "order_items_cleaned.parquet",
+        "orders_cleaned.parquet"
+      ]
+    },
+    "gold": {
+      "file_count": 3,
+      "files": [
+        "customer_metrics.parquet",
+        "daily_sales_summary.parquet",
+        "state_performance.parquet"
+      ]
+    }
+  }
+}
